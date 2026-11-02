@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos principales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boilerplate de maquetación web limpia inspirada en Apple con Flexbox.">
+    <title>Plataforma Minimalista - Inicio</title>
+
+    <!-- CDN Normalización (Normalize.css) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- CDN Google Fonts (Fuente: Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CDN Iconos Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Estilos Propios -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="site-wrapper">
+        
+        <!-- Cabecera Principal -->
+        <header class="main-header">
+            <div class="logo">
+                <i class="fa-solid fa-cube"></i> TechCorp
+            </div>
+            
+            <!-- Menú de Navegación -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="nav-link active">Inicio</a></li>
+                    <li><a href="#" class="nav-link">Productos</a></li>
+                    <li><a href="#" class="nav-link">Servicios</a></li>
+                    <li><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenedor de Contenido Principal -->
+        <div class="layout-body">
+            
+            <!-- Sección Central con Artículos -->
+            <main class="main-content">
+                <h2>Últimas Novedades</h2>
+                
+                <div class="articles-grid">
+                    <article class="card">
+                        <img src="https://picsum.photos/600/350?random=1" alt="Dispositivo inteligente sobre una mesa de trabajo">
+                        <div class="card-body">
+                            <h3>Diseño de Vanguardia</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/350?random=2" alt="Interfaz de usuario en una pantalla portatil">
+                        <div class="card-body">
+                            <h3>Rendimiento Excepcional</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://picsum.photos/600/350?random=3" alt="Componentes de hardware en un escritorio">
+                        <div class="card-body">
+                            <h3>Ecosistema Integrado</h3>
+                            <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+                        </div>
+                    </article>
+                </div>
+            </main>
+
+            <!-- Barra Lateral -->
+            <aside class="sidebar">
+                <h3>Información Destacada</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <div class="aside-box">
+                    <h4>Aviso importante</h4>
+                    <p>Revisa la documentación técnica antes de desplegar en producción.</p>
+                </div>
+            </aside>
+
+        </div>
+
+        <!-- Pie de Página -->
+        <footer class="main-footer">
+            <p>&copy; 2026 TechCorp Inc. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Elemento Fijo Flotante (Esquina inferior derecha) -->
+    <a href="#" class="floating-btn" aria-label="Soporte técnico">
+        <i class="fa-solid fa-comments"></i>
+    </a>
+
+</body>
+</html>
